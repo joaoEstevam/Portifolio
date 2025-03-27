@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js"></script>
+    <link rel="shortcut icon" type="images/png" href="/imgs/icon.svg">
+    <title>Portifólio</title>
+</head>
+<body>
+    
+    <div id="cabecalho">
+        <header style="display: flex;">
+            <img id="icon" src="/imgs/icon.svg" alt="">
+            <h1 >Portifólio</h1>
+        </header>
+    
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobreMim">Sobre mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#curriculo" >Currículo</a>
+            <a href="#redesSociais" >Redes Sociais</a>
+            <a href="#feedback" style="border-right: solid 1px black;">Feedback</a>
+        </nav>
+    </div>
+
+
+    <main>
+
+        <section id="inicio">
+            <h1>Bem vindo ao meu Portfólio</h1>
+            <tr>
+                <p>Neste espaço, você poderá conhecer um pouco sobre mim, explorar alguns dos meus projetos, saber como entrar em contato comigo pelas redes sociais e também me enviar um feedback, tanto para a melhoria da página quanto para o meu desenvolvimento profissional. Além disso, você poderá analisar meu currículo.</p>
+                <td></td>
+            </tr>
+        </section>
+    
+        <section id="sobreMim">
+            
+            <h1>Sobre Mim</h1>
+            <p>Sou profissional com experiência em TI, tendo atuado como Jovem Aprendiz/estagiário na área de TI na Guebor Toyota. Durante meu tempo lá, ajudei na solução de problemas da empresa e dos funcionários, principalmente em relação à manutenção de máquinas, backup e restauração.</p>
+            
+            <P>Atualmente, estou cursando Ciências da Computação na UNIJORGE e também concluí um curso em Administração na SENAC.
+            Possuo habilidades técnicas em várias linguagens de programação e ferramentas, incluindo JAVASCRIPT, C, entre outras. Além disso, tenho experiência em suporte de TI, manutenção preventiva, tenho aprendizado rápido.</P>
+
+            <p>Estou sempre buscando soluções para problemas, sempre atrás de novos conhecimentos e desafios e estou ansioso para aplicar minhas habilidades e conhecimentos em uma nova oportunidade na área de TI.</p>
+        </section>
+    
+        <section id="projetos">
+            
+            <h1>Projetos</h1>
+            <p>Aqui tem alguns dos projetos que eu fiz, caso tenha se interessado, Você pode entrar no meu <a href="https://github.com/joaoEstevam" target="_blank" style="color: blue;">github</a> e dar uma olhadas em outros projetos</p>
+
+            <div id="containerproject">
+                <div class="projeto" id="card1"><img src="" alt=""></div>
+                <div class="projeto" id="card2"><img src="" alt=""></div>
+                <div class="projeto" id="card3"><img src="" alt=""></div>
+                <div class="projeto" id="card4"><img src="" alt=""></div>
+            </div>
+            
+        </section>
+
+        <section id="curriculo">
+            <h1>Currículo</h1>
+            <iframe src="/curriculo.pdf" width="90%" height="500px"></iframe>
+
+            
+            
+        </section>
+    
+        <section id="redesSociais">
+            <h1>Redes Sociais</h1>
+            <p>Formas de entrar em contato:</p>
+            
+            <div id="containerImg">
+
+                <a href="https://github.com/joaoEstevam" target="_blank"><img src="/imgs/github.svg" alt=""></a>
+
+                <a href="https://www.linkedin.com/in/joão-estevam-lima-de-araujo-495624276/" target="_blank" ><img src="/imgs/linkedin.svg" alt=""></a>
+                
+                <a href="https://www.instagram.com/joaoestevam__/" target="_blank"><img src="/imgs/instagram.svg" alt=""></a>
+
+            </div>
+            
+        </section>
+
+        <section id="feedback">
+            <h1>Feedback</h1>
+            <form action="" style="display: flex; flex-direction: column;">
+                <textarea name="feedback" id="areafeedback" cols="40" rows="20" placeholder="Digite aqui sua experiência com o site, críticas e conselhos sobre como melhorá-lo, tanto em termos de funcionalidade quanto de profissionalismo"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            
+        </section>
+        
+
+    </main>
+
+    
+</body>
+</html>

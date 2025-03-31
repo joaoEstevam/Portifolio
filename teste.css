@@ -241,6 +241,46 @@ p{
 
 
 
+/* FEEDBACK */
+
+
+
+#feedback{
+    background: rgb(50, 30, 190);
+
+}
+
+form{
+    align-items: center;
+}
+
+textarea{
+    margin-top: 50px;
+    resize: none;
+    border-radius: 7px;
+    border: none;
+}
+button{
+    width: 50%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: solid 1px black;
+    background:  rgb(50, 30, 190);
+    color: white;
+    font-size: auto;
+
+}
+
+button:hover{
+    opacity: 0.5;
+    font-size: 16px;
+    
+    cursor: pointer;
+}
+
+
+
 /* FOOTER */
 
 
@@ -255,3 +295,20 @@ footer{
     justify-content: center;
     color: black;
 }
+
+
+/* <a href="#Feedback" style="border-right: solid 1px black;">Feedback</a> */
+
+/*
+
+<section class="sections" id="Feedback">
+
+            <div class="section" id="feedback">
+                <h1>Feedback</h1>
+                <form action="" style="display: flex; flex-direction: column;">
+                    <textarea name="feedback" id="areafeedback" cols="40" rows="20" placeholder="Digite aqui sua experiência com o site, críticas e conselhos sobre como melhorá-lo, tanto em termos de funcionalidade quanto de profissionalismo"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            
+        </section> */
